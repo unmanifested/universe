@@ -5,11 +5,12 @@ Created on Jan 23, 2017
 
 an·i·mus (noun)
     
-    The animation of forces driving us to bring the unmanifested into this world.
-    From soul, heart, and mind, arise imagination, memory, and purpose.
+    >>>The animation of forces driving us to bring the unmanifested into this world
+    >>>From soul, heart, and mind, arise imagination, memory, and purpose
+    >>>This is what makes us human, the creators of benevolent technologies
 '''
 
-class Soul(Entropic):
+class Soul(Thinking):
     ''' Immortal part of being
     '''
 
@@ -34,7 +35,7 @@ class Purpose(Ultimate):
     '''
 
 class Human(Soul, Heart, Mind, Imagination, Memory, Purpose):
-    ''' Realizer of the unmanifested
+    ''' Recognizers of the unmanifested
     '''
 
 
