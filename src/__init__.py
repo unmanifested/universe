@@ -10,7 +10,12 @@ an·i·mus (noun)
     >>>This is what makes us human, the creators of benevolent technologies
 '''
 
-from qualities import Thinking, Affectionate, Conscious, Brave, Loving, Ultimate
+from qualities import Perceptive, Thinking, Affectionate, Conscious, Brave,\
+    Loving, Ultimate
+
+class Body(Perceptive):
+    ''' Attenuator of consciousness
+    '''
 
 class Soul(Thinking):
     ''' Immortal part of being
