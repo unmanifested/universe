@@ -4,7 +4,9 @@ Created on Mar 26, 2017
 @author: dustin@animus.tech
 '''
 
-class Perceptive():
+from physical import Neuron
+
+class Perceptive(Neuron):
     ''' The act of perception creates the existence of an external reality
     '''
     
@@ -46,7 +48,7 @@ class Perceptive():
             of itself.'''
     
 
-class Thinking():
+class Thoughtful():
     '''
     '''
 
