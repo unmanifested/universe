@@ -4,9 +4,9 @@ Created on Mar 26, 2017
 @author: dustin@animus.tech
 '''
 
-from physical import Neuron
+from physical import SensoryNeuron, MemoryNeuron
 
-class Perceptive(Neuron):
+class Perceptive(SensoryNeuron):
     ''' The act of perception creates the existence of an external reality
     '''
     
@@ -69,9 +69,12 @@ class Brave():
 
 
 class Loving():
+    ''' Loving is more essential than memory because it is what motivates the
+        entire system to hold onto a particular frequency. When you are in tune
+        with an experience, truly in love with it, that will never leave you.
     '''
-    '''
-
+    def __init__(self):
+        self.mn = MemoryNeuron()
 
 class Ultimate():
     '''
