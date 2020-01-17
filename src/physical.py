@@ -29,14 +29,21 @@ class MemoryNeuron(Neuron):
         in information storage. There is a temptation to define this set of
         neurons as an entity separate from other neurons with different roles,
         but a resistance to dichotomy serves well in the understanding of what
-        makes a memory neuron what it is. It is a member of group, it is plays
-        to the tune of the resonance frequency of the greater whole. And the
+        makes a memory neuron what it is. It is a member of group, it plays to
+        the tune of the resonant frequency of the greater whole. And the
         resonance is different depending on the memory it is a part of. 
         
         It comes to mind, that a Memory should be defined here since it is
         playing such a critical role in the definition, but memory is actually
         arising from the action of these basic building blocks and therefore is
-        of high order.
+        of higher order.
+    '''
+
+
+class MirrorNeuron(Neuron):
+    ''' This is the set of neurons that provide an inner experience that 
+        mirrors experience in the external world and do not differentiate 
+        between the two.
     '''
 
 

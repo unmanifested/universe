@@ -4,7 +4,7 @@ Created on Mar 26, 2017
 @author: dustin@animus.tech
 '''
 
-from physical import SensoryNeuron, MemoryNeuron
+from physical import SensoryNeuron, MemoryNeuron, MirrorNeuron
 
 class Perceptive(SensoryNeuron):
     ''' The act of perception creates the existence of an external reality
@@ -15,7 +15,14 @@ class Perceptive(SensoryNeuron):
             neurons feeding directly into the occipital lobe capturing a tiny
             fraction of the electromagnetic spectrum painting a colorful
             (and extremely useful) rendering of an external universe within
-            our minds.'''
+            our minds.
+        
+            Four basic forms define our visual field:
+                - Tunnels/Funnels
+                - Lattices
+                - Spirals
+                - Cobwebs
+        '''
 
 
     def smell(self):
@@ -24,7 +31,15 @@ class Perceptive(SensoryNeuron):
             between individuals. All scent perception is a mathematically
             distinct experience for every being. Yet we largely agree that our
             own versions of the perception can be called the same thing, ie.
-            strawberries, freshly cut grass, crayons...'''
+            strawberries, freshly cut grass, crayons...
+            
+            There was a long held belief that the mechanism for the sense of
+            smell was a lock and key match between specific receptors and a
+            substrate, but this is a very classical mechanics view. Recent
+            science shows that it is actually the resonant vibration states of 
+            a molecule that excites a receptor in a particular way, and
+            molecules that share harmonics share a scent.
+        '''
     
     def taste(self):
         ''' foooood...'''

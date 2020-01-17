@@ -3,18 +3,21 @@ Created on Jan 23, 2017
 
 @author: dustin@animus.tech
 
-an·i·mus (noun)
+Universe:
+-We live in a self created and is unfolding as we look deeper
+-Our imagination is the mind of God
+-The universe is a simulation
     
-    >>>The animation of forces driving us to bring the unmanifested into this world
-    >>>From soul, heart, and mind, arise imagination, memory, and purpose
-    >>>This is what makes us human, the creators of benevolent technologies
+'The animation of forces driving us to bring the unmanifested into this world
+From soul, heart, and mind, arise imagination, memory, and purpose
+This is what makes us human, the creators of benevolent technologies'
 '''
 
 from qualities import Perceptive, Thoughtful, Affectionate, Conscious, Brave,\
     Loving, Ultimate
 
 class Body(Perceptive):
-    ''' Attenuator of consciousness
+    ''' Transducer of consciousness
     '''
 
 class Soul(Thoughtful):
